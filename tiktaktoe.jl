@@ -64,7 +64,7 @@ function main()
         display(field)
         player(field, cPlayer)
         clear()
-        checkWin(field) == cPlayer && println("\nPlayer ", cPlayer, " won!"); break
+        checkWin(field) == cPlayer && (println("\nPlayer ", cPlayer, " won!"); break)
     end
 end
 main()
